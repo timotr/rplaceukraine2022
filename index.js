@@ -97,8 +97,8 @@ function update() {
 							if (typeof colorMap[templateColor] === "undefined") {
 								console.log(`Invalid color on template (${x} y:${y} color:${templateColor}) skipping this one`)
 							} else {
-								console.log(`Needs update x:${x} y:${y} colorIndex:${colorMap[templateColor]} color:${templateColor}`)
-								sendPixel(x,y,colorMap[templateColor]).then((res) => {
+								console.log(`Needs update x:${x+templateOffsetX} y:${y+templateOffsetY} colorIndex:${colorMap[templateColor]} color:${templateColor}`)
+								sendPixel(x+templateOffsetX,y+templateOffsetY,colorMap[templateColor]).then((res) => {
 									//console.log(res)
 									if (res.status >= 200 && res.status <= 299) {
 										console.log("Success!")
