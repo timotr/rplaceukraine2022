@@ -3,6 +3,10 @@ Node script for helping out Ukraine on Reddit r/place
 For tech savvy guys out there. Change however you'll need.
 https://github.com/timotr/rplaceukraine2022
 
+Author
+Discord: Apdea#2306
+Reddit: /u/ApDea
+
 ## How to run
 
 Install Node https://nodejs.org/en/download/
