@@ -1,6 +1,7 @@
 # rplaceukraine2022
 Node script for helping out Ukraine on Reddit r/place
 For tech savvy guys out there. Change however you'll need.
+It updates from top left to bottom right - row by row and compares existing color to the desired template color.
 https://github.com/timotr/rplaceukraine2022
 
 Author
