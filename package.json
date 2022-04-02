@@ -1,0 +1,23 @@
+{
+  "name": "rplaceukraine2022",
+  "version": "1.0.0",
+  "description": "UserScript for helping out Ukraine on Reddit r/place",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timotr/rplaceukraine2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timotr/rplaceukraine2022/issues"
+  },
+  "homepage": "https://github.com/timotr/rplaceukraine2022#readme",
+  "dependencies": {
+    "get-pixels": "^3.3.3",
+    "node-fetch": "^3.2.3"
+  }
+}
