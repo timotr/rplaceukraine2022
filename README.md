@@ -1,5 +1,6 @@
 # rplaceukraine2022
 Node script for helping out Ukraine on Reddit r/place
+For tech savvy guys out there. Change however you'll need.
 https://github.com/timotr/rplaceukraine2022
 
 ## How to run
@@ -11,6 +12,7 @@ Download zip from green Code button up here.
 Get your Bearer token from Dev Tools (F12, Network tab) after sending one pixel and replace it in script.
 There is image how_to_get_token_browser.PNG, but we could use a better tutorial.
 Search for `https://gql-realtime-2.reddit.com/query` to find "send pixel" request faster.
+(There is also a way to generate token with Reddit API, help me out if you know how to)
 
 When you got token insert it into `index.js`. Also keep your browser open so the token won't invalidate.
 
@@ -35,3 +37,4 @@ Right now template is on github, you'll need to send pull request to update it. 
 You can always change template url inside `index.js`
 Template:
 https://raw.githubusercontent.com/timotr/rplaceukraine2022/main/placeukraine.png
+Also PSD file with layers.
