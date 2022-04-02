@@ -12,7 +12,7 @@ Get your Bearer token from Dev Tools (F12, Network tab) after sending one pixel 
 There is image how_to_get_token_browser.PNG, but we could use a better tutorial.
 Search for `https://gql-realtime-2.reddit.com/query` to find "send pixel" request faster.
 
-When you got token insert it into `index.js`
+When you got token insert it into `index.js`. Also keep your browser open so the token won't invalidate.
 
     token = "22979151-AfsTlPDMfK4XwGoYo2Uw0Al8x2fGrw" // <--- your own secret code will go between here
     templateImageAddress = "placeukraine.png" // can be both local and http
