@@ -6,6 +6,8 @@ https://github.com/timotr/rplaceukraine2022
 
 Install Node https://nodejs.org/en/download/
 
+Download zip from green Code button up here.
+
 Get your Bearer token from Dev Tools (F12, Network tab) after sending one pixel and replace it in script.
 There is image how_to_get_token_browser.PNG, but we could use a better tutorial.
 Search for `https://gql-realtime-2.reddit.com/query` to find "send pixel" request faster.
