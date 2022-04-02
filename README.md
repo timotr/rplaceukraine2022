@@ -29,4 +29,9 @@ Execute command to start script
 ## How to update image
 
 Colors that don't match with Reddit's original color map will be skipped. Use this to create free for all zones.
-I used random purple color in Photoshop file.
+I used random purple color in Photoshop file (you can move layers there for alliances).
+
+Right now template is on github, you'll need to send pull request to update it. If you have ideas how to make image update easier, let me know.
+You can always change template url inside `index.js`
+Template:
+https://raw.githubusercontent.com/timotr/rplaceukraine2022/main/placeukraine.png
